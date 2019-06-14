@@ -1,0 +1,20 @@
+{
+  "name": "slides-template",
+  "version": "0.0.1",
+  "dependencies": {
+    "reveal-md": "^3.0.4"
+  },
+  "scripts": {
+    "start": "reveal-md slides.md",
+    "build": "reveal-md slides.md --static",
+    "pdf": "reveal-md slides.md --print slides.pdf",
+    "dev": "reveal-md slides.md -w --disable-auto-open",
+    "release": "f(){ npm run build && npm run pdf && git checkout gh-pages && cp -fr _static/. . && git add -A && git add --force slides.pdf && git commit -m \"${@}\" && git checkout -; }; f"
+  },
+  "keywords": [
+    "slides",
+    "reveal.js",
+    "talk",
+    "presentation"
+  ]
+}
