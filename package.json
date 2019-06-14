@@ -10,7 +10,7 @@
     "build": "npm start -- --static",
     "pdf": "npm start -- --print slides.pdf",
     "dev": "npm start -- -w --disable-auto-open",
-    "release": "f(){ npm run build && npm run pdf && git checkout gh-pages && cp -fr _static/. . && git add -A && git add --force slides.pdf && git commit -m \"${@}\" && git checkout -; }; f"
+    "release": "f(){ npm run build && npm run pdf && git add -A && git commit -m \"${@}\"; }; f"
   },
   "keywords": [
     "slides",
@@ -30,5 +30,6 @@
   },
   "bugs": {
     "url": "https://github.com/sberlin/client-as-code/issues"
-  }
+  },
+  "homepage": "https://sberlin.github.io/client-as-code"
 }
