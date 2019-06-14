@@ -1,6 +1,7 @@
 {
-  "name": "slides-template",
+  "name": "client-as-code",
   "version": "0.0.1",
+  "description": "Talk about provisioning your client system",
   "dependencies": {
     "reveal-md": "^3.0.4"
   },
@@ -15,6 +16,19 @@
     "slides",
     "reveal.js",
     "talk",
-    "presentation"
-  ]
+    "presentation",
+    "provisioning",
+    "IaC",
+    "Infrastructure as Code",
+    "Ansible",
+    "Vagrant",
+    "VirtualBox"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sberlin/client-as-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sberlin/client-as-code/issues"
+  }
 }
