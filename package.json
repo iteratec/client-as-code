@@ -10,7 +10,7 @@
     "build": "npm start -- --static docs/",
     "pdf": "npm start -- --print docs/slides.pdf",
     "dev": "npm start -- -w --disable-auto-open",
-    "release": "f(){ npm run build && npm run pdf && git add -u && git add -A docs/ && git commit -m \"${@}\"; }; f"
+    "release": "f(){ npm run build && npm run pdf && git add -A docs/ && git commit -m \"${@}\"; }; f"
   },
   "keywords": [
     "slides",
