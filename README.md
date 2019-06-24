@@ -1,4 +1,6 @@
-# Slides
+# Client as Code
+
+https://sberlin.github.io/client-as-code/
 
 ## Usage
 Type a `?` in the presentation to open a dialog listing the available shortcuts.
