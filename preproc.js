@@ -1,14 +1,23 @@
+'use strict';
+
+function bulletPointsAsFragements(markdown) {
+  return markdown
+      .split('\n')
+      .map((line, index) => {
+        return (!/^[ \t]*\*/.test(line) || index === 0)
+            ? line
+            : line + '<!-- .element: class="fragment" -->';
+      })
+      .join('\n')
+}
+
 module.exports = (markdown, options) => {
   return new Promise((resolve, reject) => {
     return resolve(
-      markdown
-        .split('\n')
-        .map((line, index) => {
-            console.log(line, index);
-          if (!/^\*/.test(line) || index === 0) return line;
-          return line + '\n<!-- .element: class="fragment" -->';
-        })
-        .join('\n')
+      [
+        bulletPointsAsFragements
+      ].reduce((result, preprocFn) => preprocFn(result), markdown)
     );
   });
+
 };
