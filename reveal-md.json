@@ -1,4 +1,5 @@
 {
     "theme": "solarized",
-    "css": "./theme/custom.css"
+    "css": "./theme/custom.css",
+    "preprocessor": "./preproc.js"
 }

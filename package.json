@@ -6,7 +6,7 @@
     "reveal-md": "^3.0.4"
   },
   "scripts": {
-    "start": "reveal-md slides.md --preprocessor preproc.js",
+    "start": "reveal-md slides.md",
     "build": "npm start -- --static",
     "pdf": "npm start -- --print slides.pdf",
     "dev": "npm start -- -w --disable-auto-open",
