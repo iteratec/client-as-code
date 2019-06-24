@@ -1,0 +1,4 @@
+.img-row img {
+    width: calc(95% / 2);
+    vertical-align: middle;
+}

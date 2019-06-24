@@ -1,6 +1,6 @@
 {
   "name": "client-as-code",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Talk about provisioning your client system",
   "dependencies": {
     "reveal-md": "^3.0.4"
