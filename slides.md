@@ -12,7 +12,11 @@ Schnack über die Provisionierung von Clientgeräten
     * erstmal versuchen weitere Pakete reinzupatchen
     * erstmal versuchen portable Varianten der Tools zu finden
     * erstmal kapieren, wo überall der corporate proxy dazwischenfunkt
-    * Endboss: Rootzertifikate ![facepalm](https://media.giphy.com/media/27EhcDHnlkw1O/giphy.gif)
+    * Endboss: Rootzertifikate
+
+----
+
+![facepalm](https://media.giphy.com/media/27EhcDHnlkw1O/giphy.gif)
 
 ---
 
@@ -28,8 +32,13 @@ Schnack über die Provisionierung von Clientgeräten
     * Setup ist dokumentiert
     * das Wissen ist teilbar
     * für den Neuen im Team:
-        * entweder ![math girl](https://media.giphy.com/media/APqEbxBsVlkWSuFpth/giphy.gif)
-        oder ![mind blown](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
+
+----
+<!-- .element class="img-row" -->
+
+![math girl](https://media.giphy.com/media/APqEbxBsVlkWSuFpth/giphy.gif)
+![mind blown](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
+<!-- .element class="fragment" -->
 
 ---
 
