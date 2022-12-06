@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Talk about provisioning your client system",
   "dependencies": {
-    "reveal-md": "^3.1.0"
+    "reveal-md": "^5.4.0"
   },
   "scripts": {
     "start": "reveal-md slides.md",
